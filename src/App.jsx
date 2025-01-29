@@ -5,6 +5,7 @@ import Intro from './Component/Intro'
 import Navbar from './Component/Navbar'
 import Projects from './Component/Projects'
 import Skills from './Component/Skills'
+import HamburgerMenu from './Component/HamburgerMenu'
 
 function App() {
   const [animation , setAnimation] = useState(false)
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <>
+    <HamburgerMenu/>
    <Navbar handleAnimation = {handleAnimation}/>
    <Intro/>
    <Ido animation={animation}/>

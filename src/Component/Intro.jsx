@@ -5,9 +5,9 @@ function Intro() {
     return (
         <>
             <div id='intro' className='animate-fade-in flex flex-row bg-blue-900 gap-5   py-16 '>
-                <div className="inro flex flex-row items-center">
+                <div className="inro flex flex-row items-center  ">
 
-                    <div className="p-5 rounded-full overflow-visible ">
+                    <div className="p-5 rounded-full overflow-visible  ">
                         <img
                             className="h-40 w-40 rounded-full object-cover"
                             src={img}
@@ -31,7 +31,7 @@ function Intro() {
 
 
             </div>
-            <div className=" animate-fade-in text  flex flex-row  bg-blue-900 gap-4  justify-center px-28 font-serif font-semibold text-white h-screen">
+            <div className=" animate-fade-in text  flex flex-row   bg-blue-900 gap-4  justify-center px-28 font-serif font-semibold text-white h-screen">
             I am Sumit, motivated and detail-oriented Full Stack Developer specializing in React.js for front-end development, creating responsive and user-friendly interfaces. Proficient in backend technologies, including Node.js and Express, for building robust and scalable server-side applications. Experienced in working with MongoDB as the database to design, manage, and optimize data structures. Passionate about crafting seamless and efficient full-stack solutions that meet business objectives and enhance user experiences. Eager to contribute to dynamic teams and deliver high-quality software solutions.
                 <div className="logo">
                     {/* <img
