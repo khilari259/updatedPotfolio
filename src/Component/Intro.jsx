@@ -31,7 +31,7 @@ function Intro() {
 
 
             </div>
-            <div className=" animate-fade-in text  flex flex-row md:flex-col sm:flex-col   bg-blue-900 gap-4  justify px-28 font-serif font-semibold text-white h-screen">
+            <div className=" animate-fade-in text  flex flex-row md:flex-col sm:flex-col   bg-blue-900 gap-4  justify px-28 font-serif font-semibold text-white h-auto  md:h-screen lg:h-screen">
             I am Sumit, motivated and detail-oriented Full Stack Developer specializing in React.js for front-end development, creating responsive and user-friendly interfaces. Proficient in backend technologies, including Node.js and Express, for building robust and scalable server-side applications. Experienced in working with MongoDB as the database to design, manage, and optimize data structures. Passionate about crafting seamless and efficient full-stack solutions that meet business objectives and enhance user experiences. Eager to contribute to dynamic teams and deliver high-quality software solutions.
                 <div className="logo">
                     {/* <img
